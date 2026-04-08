@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     let members = [
         Member(name: "Makendra Phipps", role: "Developer & Management", notes: "Responsible for timeline and developing code (Cart Functionality).", imageName: "MPheadshot.jpg"),
         Member(name: "Jenna Kramer", role: "Developer & Design", notes: "Focusing on UI/UX and developing code (Category Views).", imageName: "JKheadshot.jpg"),
-        Member(name: "Harrison Mesplay", role: "Developer & Testing", notes: "Focusing on asset and inventory management.", imageName: "")
+        Member(name: "Harrison Mesplay", role: "Developer & Testing", notes: "Focusing on asset and inventory management.", imageName: "HMheadshot.jpg")
     ]
     
     let projectList = ["Frontend", "Backend", "UI/UX Design"]
