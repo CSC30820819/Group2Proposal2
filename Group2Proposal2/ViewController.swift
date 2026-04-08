@@ -61,8 +61,11 @@ class ViewController: UIViewController {
                 destinationVC.selectedMember = memberData
             }
         }
-        else if segue.identifier == "goToProjectScreen" {
-            //Harrison
+        else if segue.identifier == "goToProject" {
+            if let destinationVC = segue.destination as? ProjectViewController,
+                let selectedProject = sender as? String {
+                destinationVC.selectedProject = selectedProject
+            }
         }
         else if segue.identifier == "goToImage"{
             if let destinationVC = segue.destination as? ImageViewController,
@@ -137,8 +140,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             break
             
         case 1:
-            //For You Harrison
-            
+                let selectedProject = projectList[indexPath.row]
+                performSegue(withIdentifier: "goToProject", sender: selectedProject)
             break
             
         case 2:
