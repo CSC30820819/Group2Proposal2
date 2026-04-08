@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "paper-grocery-bag-with-tomato-cabbage-carrot-and-green-onions-cartoon-illustration-vector.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
